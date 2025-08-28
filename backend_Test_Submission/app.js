@@ -280,7 +280,7 @@ app.use('*', (req, res) => {
 });
 
 // Start Server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 9999;
 app.listen(PORT, () => {
   console.log(`URL Shortener Microservice running on http://localhost:${PORT}`);
   logMessage('backend', 'info', 'server', `Server started on port ${PORT}`);
